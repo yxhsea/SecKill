@@ -1,0 +1,25 @@
+#title = "Http Toml"
+
+[service]
+write_proxy2layer_goroutine_num = 16
+read_layer2proxy_goroutine_num = 16
+handle_user_goroutine_num = 16
+read2handle_chan_size = 100000
+handle2write_chan_size = 100000
+max_request_wait_timeout = 30
+#单位是毫秒
+send_to_write_chan_timeout= 100
+send_to_handle_chan_timeout = 100
+#token秘钥
+seckill_token_passwd = "fIOxU7iik65vVvBGtNcnrjL4E9MdRpTfzzxE3dx6b7BAHN5etUdSzRW5yjzHzF"
+
+[redis]
+host = "192.168.199.159:6379"
+password = ""
+db = 0
+proxy2layer_queue_name = "sec_queue"   ### 接入层->逻辑层
+layer2proxy_queue_name = "recv_queue"  ### 逻辑层->接入层
+
+[etcd]
+host = "192.168.199.159:2379"
+product_key = "sec_kill_product"

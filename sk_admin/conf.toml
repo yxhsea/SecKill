@@ -1,0 +1,15 @@
+#title = "Http Toml"
+
+[http]
+host = "0.0.0.0:8081"
+
+[mysql]
+host = "127.0.0.1"
+port = "3306"
+user = "root"
+pass_wd = "root"
+db = "seckill"
+
+[etcd]
+host = "192.168.199.159:2379"
+product_key = "sec_kill_product"

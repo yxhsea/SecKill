@@ -1,0 +1,47 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "onYjGS/fMmYHOZNhvXmTnpnoSLk=",
+			"path": "github.com/Unknwon/com",
+			"revision": "da59b551951d50441ca26b7a8cd81317f34df87f",
+			"revisionTime": "2018-06-17T00:39:50Z"
+		},
+		{
+			"checksumSHA1": "Ndb+LiMjMGe+P1CmhIMkg8uxzMM=",
+			"path": "github.com/coreos/etcd/clientv3",
+			"revision": "308f59058cf796c10d5754b5d410cb98d06e9126",
+			"revisionTime": "2018-07-02T18:07:35Z"
+		},
+		{
+			"checksumSHA1": "B/mXxYj+1Ac6Y/grngUFwjYt/kQ=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "760d0574db7432376d91b53dba9146c1f32d28c0",
+			"revisionTime": "2018-06-22T16:45:43Z"
+		},
+		{
+			"checksumSHA1": "W1VsIJMTwji59tfHOzVDWzMLNZw=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "crnznOOVslEMZ8WEWbnqDx6fLPY=",
+			"path": "github.com/gohouse/gorose",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "PT2gTY5RQvn73hV0/fzBfT9mu3M=",
+			"path": "github.com/spf13/cobra",
+			"revision": "1e58aa3361fd650121dceeedc399e7189c05674a",
+			"revisionTime": "2018-05-31T18:03:38Z"
+		},
+		{
+			"checksumSHA1": "PZu7Md46kiOFq8jKlEzpL4o4coo=",
+			"path": "github.com/spf13/viper",
+			"revision": "15738813a09db5c8e5b60a19d67d3f9bd38da3a4",
+			"revisionTime": "2018-05-06T01:38:06Z"
+		}
+	],
+	"rootPath": "SecKill"
+}
