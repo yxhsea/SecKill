@@ -32,6 +32,7 @@
 
 
 ##### 目录结构
+```
 ├─sk_admin
 │  ├─config
 │  ├─controller
@@ -75,3 +76,4 @@
         │  └─viper
         └─Unknwon
             └─com
+```
