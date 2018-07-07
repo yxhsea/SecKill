@@ -29,3 +29,49 @@
 2. 添加抢购活动数据。
 3. 将数据同步到Etcd。
 4. 将数据同步到数据库。
+
+
+##### 目录结构
+├─sk_admin
+│  ├─config
+│  ├─controller
+│  │  ├─activity
+│  │  └─product
+│  ├─model
+│  ├─service
+│  └─setup
+├─sk_layer
+│  ├─config
+│  ├─logic
+│  ├─service
+│  │  ├─srv_err
+│  │  ├─srv_limit
+│  │  ├─srv_product
+│  │  ├─srv_redis
+│  │  └─srv_user
+│  └─setup
+├─sk_proxy
+│  ├─config
+│  ├─controller
+│  ├─service
+│  │  ├─srv_err
+│  │  ├─srv_limit
+│  │  ├─srv_redis
+│  │  └─srv_sec
+│  └─setup
+└─vendor
+    └─github.com
+        ├─coreos
+        │  └─etcd
+        │      └─clientv3
+        ├─gin-gonic
+        │  └─gin
+        ├─go-sql-driver
+        │  └─mysql
+        ├─gohouse
+        │  └─gorose
+        ├─spf13
+        │  ├─cobra
+        │  └─viper
+        └─Unknwon
+            └─com
